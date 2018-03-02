@@ -10,8 +10,7 @@ allPokemons.forEach(item =>{
      console.log(pokemonName);
     const pokemonURL = item.pokemon_species.url;
     console.log(pokemonURL);
- template += `<div class="row">
- <div class="col s12 m3">
+ template += `<div class="col s12 m3">
    <div class="card">
      <div class="card-image">
        <img src="assets/img/683.png" class="pokebola">
@@ -23,8 +22,7 @@ allPokemons.forEach(item =>{
        <a href="${pokemonURL}">CLICK HERE TO KNOW MORE THIS POKEMON</a>
      </div>
    </div>
- </div>
-</div>`
+ </div>`
 
 });container.append(template);
 }
