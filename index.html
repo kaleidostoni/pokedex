@@ -14,11 +14,22 @@
 </head>
 
 <body>
-    <h1 class="red-text  text-accent-3">Pokedex</h1>
-    <form id="search-form">
+
+    
+  <nav>
+        <div class="nav-wrapper red accent-3">
+            <h1 class="brand-logo">Pokedex</h1>
+        </div>
+      </nav>
+    
+    <form id="search-form" class="row">
+        <div class="col l10">
         <label for="search-input" class="visuallyhidden">Pokemon Search</label>
         <input id="search-input" type="text" name="search-input" required>
+    </div>
+    <div class="row space"></div>
         <input id="submit-btn" type="submit" value="Submit" class="waves-effect waves-light btn-large  red accent-3">
+    
     </form>
 
     <section id="container" class="row">
