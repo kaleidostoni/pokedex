@@ -14,13 +14,13 @@ allPokemons.forEach(item =>{
  <div class="col s12 m3">
    <div class="card">
      <div class="card-image">
-       <img src="assets/img/063.png" class="pokebola">
+       <img src="assets/img/683.png" class="pokebola">
      </div>
      <div class="card-content">
      <span class="card-title">${pokemonName}</span>
      </div>
      <div class="card-action">
-       <a href="${pokemonURL}">CLICK HERE TO KNOW MORE</a>
+       <a href="${pokemonURL}">CLICK HERE TO KNOW MORE THIS POKEMON</a>
      </div>
    </div>
  </div>
