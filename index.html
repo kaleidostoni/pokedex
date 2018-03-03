@@ -15,24 +15,39 @@
 
 <body>
 
-    
-  <nav>
+
+    <nav>
         <div class="nav-wrapper red accent-3">
             <h1 class="brand-logo">Pokedex</h1>
         </div>
-      </nav>
-    
+    </nav>
+
     <form id="search-form" class="row">
         <div class="col l10">
-        <label for="search-input" class="visuallyhidden">Pokemon Search</label>
-        <input id="search-input" type="text" name="search-input" required>
-    </div>
-    <div class="row space"></div>
+            <label for="search-input" class="visuallyhidden">Pokemon Search</label>
+            <input id="search-input" type="text" name="search-input" required>
+        </div>
+        <div class="row space"></div>
         <input id="submit-btn" type="submit" value="Submit" class="waves-effect waves-light btn-large  red accent-3">
-    
+
     </form>
 
     <section id="container" class="row">
+
+    <div id="poke-modal" class="modal">
+        <div class="modal-content">
+             <h3 id="modal-poke-name"></h3>
+             <h4>Capture rate</h4>
+             <p id="capture-rate"></p>
+             <h4>Habitat</h4>
+             <p id="habitat"></p>
+             <h4>Color</h4>
+             <p id="color"></p>
+         </div>
+         <div class="modal-footer">
+             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+     </div>
 
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
